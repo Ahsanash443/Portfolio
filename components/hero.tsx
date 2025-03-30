@@ -64,6 +64,8 @@ export default function Hero() {
             </p>
 
             <div className="flex flex-wrap gap-4">
+              
+            <a href="/projects"  rel="noopener noreferrer">
               <Button
                 size="lg"
                 className="group bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 transition-all duration-300 shadow-lg hover:shadow-xl"
@@ -71,13 +73,16 @@ export default function Hero() {
                 View Projects
                 <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
               </Button>
-              <Button
-                variant="outline"
-                size="lg"
-                className="border-slate-300 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-800"
-              >
-                Download CV
-              </Button>
+              </a>
+              <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+                <Button
+                  variant="outline"
+                  size="lg"
+                  className="border-slate-300 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-800"
+                >
+                  View Resume
+                </Button>
+              </a>
             </div>
           </motion.div>
         </motion.div>

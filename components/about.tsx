@@ -66,7 +66,7 @@ export default function Experience() {
   ]
 
   return (
-    <section id="carrer" className="py-20 bg-white dark:bg-slate-900">
+    <section id="career" className="py-20 bg-white dark:bg-slate-900">
       <div className="container mx-auto px-4">
         <motion.div 
           initial={{ opacity: 0, y: 20 }}
